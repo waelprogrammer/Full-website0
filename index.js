@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/services')
+fetch('https://web0-mq2x.onrender.com/services')
   .then(response => response.json())
   .then(data => {
     let services = document.getElementById('services');
@@ -21,7 +21,7 @@ fetch('http://localhost:3000/services')
 
 
 
-fetch('http://localhost:3000/services1')
+fetch('https://web0-mq2x.onrender.com/services1')
   .then(response => response.json())
   .then(data => {
     let content2 = document.getElementById('content2');
